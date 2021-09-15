@@ -1,0 +1,79 @@
+body {
+    margin: 0px 0px 100px 0px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(245, 245, 245);
+}
+
+header {
+    padding: 50px;
+}
+
+.title {
+    color: #666;
+    font-size: 32px;
+    text-align: center;
+    line-height: 40px;
+    padding-bottom: 30px;
+}
+
+.resume {
+    color: #999;
+    font-size: 17px;
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: 0px 10px 10px #BBB; 
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central {
+    display: flex;
+    flex-direction: column;
+}
+
+.title_cards {
+    color: #666;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 30px 30px 20px 30px;
+}
+
+.resume_cards {
+    color: #999;
+    font-size: 15px;
+    padding: 0px 30px 30px 30px;
+    line-height: 25px;
+}
+
+.icon {
+    float:right;
+    padding: 0px 30px 30px 30px;
+}
+
+.left {
+    border-top: 5px solid rgb(0, 247, 247);
+}
+
+.upper {
+    border-top: 5px solid rgb(224, 0, 0);
+}
+
+.bottom {
+    border-top: 5px solid rgb(255, 199, 17);
+}
+
+.right {
+    border-top: 5px solid rgb(51, 37, 250);
+}
